@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}  bg-gray-50 text-gray-950 h-[5000px]`}
+        className={`${geistSans.variable} ${geistMono.variable}  bg-gray-50 text-gray-950 h-[5000px] pt-28`}
       >
         <div
           className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] 
