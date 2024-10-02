@@ -10,7 +10,7 @@ import { experiencesData } from "@/lib/data";
 const experience = () => {
   return (
     <section>
-      <Heading children="Experience" />
+      <Heading>experience</Heading>
       <VerticalTimeline>
         {experiencesData.map((experience, index) => (
           <React.Fragment key={index}>

@@ -11,9 +11,8 @@ const about = () => {
       transition={{ delay: 0.175 }}
       className="mb-28 max-w-[45rem] text-center leading-8 scroll-mt-28"
       id="about"
-      
     >
-      <Heading children="About Me" />
+      <Heading>About Me</Heading>
       <p className="mb-3 ">
         As a passionate Full Stack Developer, I specialize in building dynamic,
         high-performance web applications using modern technologies such as

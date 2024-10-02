@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Heading from "./heading";
 import { projectsData } from "@/lib/data";
 import Project from "./project";
@@ -6,7 +6,7 @@ import Project from "./project";
 const Projects = () => {
   return (
     <section id="projects" className="scroll-mt-28 mb-20">
-      <Heading children="My Project" />
+      <Heading>My Project</Heading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
