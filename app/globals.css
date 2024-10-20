@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+html {
+  --line-color: #e5e7eb;
+}
+
+.boderBlack {
+  @apply border border-black/10;
+}

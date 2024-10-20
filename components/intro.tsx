@@ -50,11 +50,12 @@ const Intro = () => {
       <motion.p
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="mb-10 mt-4 px-4 font-medium text-2xl leading-[1.5] sm:text-4xl"
+        className="mb-10 my-14 px-4 font-serif text-justify text-xl leading-[1.5] sm:text-3xl"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam suscipit,
-        dolore a blanditiis sapiente ullam error, quisquam quidem repellat quasi
-        tempore aliquid neque non
+        A passionate full-stack developer skilled in modern web technologies
+        like React, TypeScript, Next.js, and Node.js. Eager to build innovative
+        applications, enhance user experiences, and grow through continuous
+        learning.
       </motion.p>
       <motion.div
         initial={{ y: 100, opacity: 0 }}

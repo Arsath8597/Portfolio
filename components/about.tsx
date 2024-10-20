@@ -14,17 +14,18 @@ const about = () => {
     >
       <Heading>About Me</Heading>
       <p className="mb-3 ">
-        As a passionate Full Stack Developer, I specialize in building dynamic,
-        high-performance web applications using modern technologies such as
-        ReactJS, Tailwind CSS, TypeScript, Node.js, and Express.
+        I am a highly motivated full-stack developer with expertise in ReactJS,
+        TypeScript, Next.js, Framer Motion, Tailwind CSS, Node.js, Express,
+        JavaScript, and Redux. Despite being a fresher, I have completed several
+        freelance projects, demonstrating my ability to create dynamic,
+        responsive, and scalable applications.
       </p>
       <p>
-        With a strong foundation in both front-end and back-end development, I
-        take pride in delivering clean, efficient, and scalable
-        solutions.Proficient in ReactJS for creating responsive, interactive
-        user interfaces, leveraging Tailwind CSS for sleek and mobile-friendly
-        designs. Expertise in TypeScript ensures strong type safety and
-        maintainable code.
+        I have a solid grasp of web development principles and a keen focus on
+        building efficient solutions that deliver exceptional user experiences.
+        With a commitment to teamwork, hard work, and continuous learning, I am
+        excited to contribute meaningfully to projects and grow alongside
+        evolving technologies.
       </p>
     </motion.div>
   );
