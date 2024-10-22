@@ -11,12 +11,13 @@ import Heading from "./heading";
 
 export default function Experience() {
   return (
-    <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="education" className="scroll-mt-28 mb-28 sm:mb-40 ">
       <Heading>Education</Heading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              className="dark:text-black"
               visible={true}
               date={item.date}
               icon={item.icon}

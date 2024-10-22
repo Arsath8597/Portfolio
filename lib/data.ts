@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Bachelor's in Computer Science-2024",
     location: "Kingston University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I hold a Bachelors degree in Computer Science from Kingston University, completed in 2024. ",
     icon: React.createElement(LuGraduationCap),
     date: "2023-2024",
   },
@@ -46,15 +46,15 @@ export const experiencesData = [
     title: "Higher National Diploma in Software Engineering -2022 ",
     location: "Orlando, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I earned a Higher National Diploma in Software Engineering in 2022, focusing on web and mobile application development.",
     icon: React.createElement(CgWorkAlt),
     date: "2021-2023",
   },
   {
     title: "Freelance Full-Stack Developer ",
-    location: "Esoft,Trincomalee",
+    location: "Online",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I work as a freelance full-stack developer, building dynamic and scalable web applications using technologies like React, Node.js, and Tailwind CSS. I focus on delivering efficient solutions and enhancing user experiences through modern development practices.",
     icon: React.createElement(FaReact),
     date: "2022- present",
   },
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "BNR FARM House – Freelance Project ",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Created a modern, responsive farm website with smooth animations to enhance user interaction. Built using ReactJS, Framer Motion, and Tailwind CSS",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "HHMA Sri Lanka – NGO Frontend Project ",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Virtual Meeting Platform – Trincomalee Campus ",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed a user-friendly, responsive website for a non-profit organization to support their mission. Built with ReactJS and Tailwind CSS",
+    tags: ["React", "express", "MongoDB", "node", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ];

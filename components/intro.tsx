@@ -76,7 +76,7 @@ const Intro = () => {
         <a
           href="/CV.pdf"
           download={true}
-          className="bg-white group cursor-pointer  px-7 py-3  flex items-center justify-center gap-2 outline-none 
+          className="bg-white dark:bg-black group cursor-pointer  px-7 py-3  flex items-center justify-center gap-2 outline-none 
           focus:scale-110 hover:scale-105  active:scale-105 transition border border-black/10
           rounded-full"
         >
