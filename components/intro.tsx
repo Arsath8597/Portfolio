@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Profile from "@/public/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector (1).jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -23,8 +24,8 @@ const Intro = () => {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
+              src={Profile}
+              alt="Mohamed Arsath"
               width="192"
               height="192"
               quality="95"
