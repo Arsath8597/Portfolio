@@ -16,7 +16,7 @@ const Page = () => {
 
   useEffect(() => {
     const refreshed = sessionStorage.getItem("hasRefreshed");
-
+    console.log(hasRefreshed);
     if (!refreshed) {
       sessionStorage.setItem("hasRefreshed", "true");
       setHasRefreshed(true);
